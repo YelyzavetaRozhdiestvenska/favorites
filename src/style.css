@@ -1,0 +1,53 @@
+.favor-section {
+  margin-bottom: 24px;
+  width: 335px;
+  height: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.favor-item {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.card-favor {
+  display: inline-block;
+  position: absolute;
+  width: 335px;
+  bottom: 10px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+}
+
+.title-favor {
+  width: 210px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+}
+
+.desc-favor {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: white;
+}
+
+.rating-btn-favor {
+  display: flex;
+}
+
+.btn-favor {
+  padding: 8px 14px;
+  background-color: 9BB537;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}

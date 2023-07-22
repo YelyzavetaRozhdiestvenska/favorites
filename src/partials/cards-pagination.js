@@ -103,9 +103,35 @@ export default class RecipeApiService {
   }
 }
 
-const recipeApiSerive = new RecipeApiService();
+// const recipeApiSerive = new RecipeApiService();
 
-const favorList = document.querySelector('.favor-list');
+// let favorList;
+
+// getFavorList();
+
+// async function getFavorList() {
+//   try {
+//     const response = await recipeApiSerive.getFavorList();
+//     return (favorList = response);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+// // Рендер карток
+// async function renderFavorCards(favor) {
+//   const favorList = document.querySelector('.favor-list');
+
+//   let marcup = '';
+//   for (const favor of favors) {
+//     const { _id, title, category, rating, preview, description } = favor;
+
+//     const favorId = await getRecipeId;
+//   }
+// }
+
+// const favorList = document.querySelector('.favor-list');
+
+// Імітація:
 
 recipeApiSerive.getRecipe().then(response => {
   const arr = response.results;
