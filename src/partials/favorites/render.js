@@ -7,7 +7,7 @@ function renderStars(rating) {
 
   console.log(rating);
 
-  for (var i = rating; i >= 1; i--)
+  for (let i = rating; i >= 1; i--)
     stars.push(
       '<i class="fa fa-star" aria-hidden="true" style="color: gold;"></i>&nbsp;'
     );
